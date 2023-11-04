@@ -1,5 +1,5 @@
 local airdropInterval = 30 * 1000 -- 30 seconds in milliseconds
-local airdropModel = "prop_box_ammo07b"
+local airdropModel = "prop_mil_crate_01"
 
 Citizen.CreateThread(function()
     while true do
