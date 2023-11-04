@@ -1,6 +1,6 @@
 local airdropInterval = 30 * 1000 -- 30 seconds in milliseconds
 local airdropModel = "prop_mil_crate_01"
-
+-- DO NOT TOUCH ANYTHING UNDER THIS IF YOU DONT KNOW WHAT YOU ARE DOING
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(airdropInterval) -- Wait for the specified interval (30 seconds)
